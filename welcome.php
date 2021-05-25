@@ -23,7 +23,7 @@ if($username == false){
     <section>
         <div class="container">
             <header>
-                <a href="index.php" class="logo">BTD</a>
+                <a href="welcome.php" class="logo">BTD</a>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href='myprofile.php'>Profile</a></li>
@@ -33,14 +33,7 @@ if($username == false){
             </header>
             <div class="card">
                 <div class="content">
-                    <h2>01</h2>
                     <h3>Upload MRI scan</h3>
-                    <form action="welcome.php" method="post" enctype="multipart/form-data">
-                     <h1>select image to upload:</h1>
-                          <input type="file" name="fileToUpload" id="fileToUpload">
-                           <input type="submit" value="UPLOAD " name="submit">
-                        </form>
-                   
                 </div>
             </div>
           
